@@ -1,0 +1,35 @@
+<center><b>Server variables</b></center>
+<hr>
+POD_NAME = <?php echo gethostname(); ?> <br>
+GATEWAY_INTERFACE = <?php echo $_SERVER['GATEWAY_INTERFACE']; ?> <br>
+SERVER_ADDR = <?php echo $_SERVER['SERVER_ADDR']; ?> <br>
+SERVER_NAME = <?php echo $_SERVER['SERVER_NAME']; ?> <br>
+SERVER_SOFTWARE = <?php echo $_SERVER['SERVER_SOFTWARE']; ?> <br>
+SERVER_PROTOCOL = <?php echo $_SERVER['SERVER_PROTOCOL']; ?> <br>
+REQUEST_METHOD = <?php echo $_SERVER['REQUEST_METHOD']; ?> <br>
+REQUEST_TIME = <?php echo $_SERVER['REQUEST_TIME']; ?> <br>
+QUERY_STRING = <?php echo $_SERVER['QUERY_STRING']; ?> <br>
+DOCUMENT_ROOT = <?php echo $_SERVER['DOCUMENT_ROOT']; ?> <br>
+HTTP_ACCEPT = <?php echo $_SERVER['HTTP_ACCEPT']; ?> <br>
+HTTP_ACCEPT_CHARSET = <?php echo $_SERVER['HTTP_ACCEPT_CHARSET']; ?> <br>
+HTTP_ACCEPT_ENCODING = <?php echo $_SERVER['HTTP_ACCEPT_ENCODING']; ?> <br>
+HTTP_ACCEPT_LANGUAGE = <?php echo $_SERVER['HTTP_ACCEPT_LANGUAGE']; ?> <br>
+HTTP_CONNECTION = <?php echo $_SERVER['HTTP_CONNECTION']; ?> <br>
+HTTP_HOST = <?php echo $_SERVER['HTTP_HOST']; ?> <br>
+HTTP_REFERER = <?php echo $_SERVER['HTTP_REFERER']; ?> <br>
+HTTP_USER_AGENT = <?php echo $_SERVER['HTTP_USER_AGENT']; ?> <br>
+HTTPS = <?php echo $_SERVER['HTTPS']; ?> <br>
+REMOTE_ADDR = <?php echo $_SERVER['REMOTE_ADDR']; ?> <br>
+REMOTE_HOST = <?php echo $_SERVER['REMOTE_HOST']; ?> <br>
+REMOTE_PORT = <?php echo $_SERVER['REMOTE_PORT']; ?> <br>
+SCRIPT_FILENAME = <?php echo $_SERVER['SCRIPT_FILENAME']; ?> <br>
+SERVER_ADMIN = <?php echo $_SERVER['SERVER_ADMIN']; ?> <br>
+SERVER_PORT = <?php echo $_SERVER['SERVER_PORT']; ?> <br>
+SERVER_SIGNATURE = <?php echo $_SERVER['SERVER_SIGNATURE']; ?> <br>
+PATH_TRANSLATED = <?php echo $_SERVER['PATH_TRANSLATED']; ?> <br>
+SCRIPT_NAME = <?php echo $_SERVER['SCRIPT_NAME']; ?> <br>
+REQUEST_URI = <?php echo $_SERVER['REQUEST_URI']; ?> <br>
+PHP_AUTH_DIGEST = <?php echo $_SERVER['PHP_AUTH_DIGEST']; ?> <br>
+PHP_AUTH_USER = <?php echo $_SERVER['PHP_AUTH_USER']; ?> <br>
+PHP_AUTH_PW = <?php echo $_SERVER['PHP_AUTH_PW']; ?> <br>
+AUTH_TYPE = <?php echo $_SERVER['AUTH_TYPE']; ?> <br>
